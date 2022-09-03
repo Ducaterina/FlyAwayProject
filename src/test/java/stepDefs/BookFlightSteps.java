@@ -30,7 +30,7 @@ public class BookFlightSteps {
 	    view.click();
 	    Thread.sleep(3000);
 	    WebElement message = driver.findElement(By.xpath("//body"));
-	    String msg = "Total 3 bookings";
+	    String msg = "Total 4 bookings";
 		Assert.assertTrue(message.getText().contains(msg));
 	};
 
@@ -58,7 +58,7 @@ public class BookFlightSteps {
 	    view.click();
 	    Thread.sleep(3000);
 	    WebElement message = driver.findElement(By.xpath("//body"));
-	    String msg = "Total 4 bookings";
+	    String msg = "Total 5 bookings";
 		Assert.assertTrue(message.getText().contains(msg));
 	
 	};
