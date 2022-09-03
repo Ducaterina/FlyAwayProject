@@ -1,0 +1,828 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-03T08:38:14.612Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1516766800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-booking-a-flight-in-the-application;title-of-your-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 100823300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3172018400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the FlyAway application in browser",
+            "match": {
+              "location": "SearchFlightSteps.i_have_opened_the_flyaway_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3174316400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154452600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email \"abc@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@xyz.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "BookFlightSteps.i_enter_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98401100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"bbbbbb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bbbbbb\"",
+                  "offset": 17
+                }
+              ],
+              "location": "BookFlightSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3209333200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3267316000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on YourBookings there are 0 bookings",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 34
+                }
+              ],
+              "location": "BookFlightSteps.i_click_on_yourbookings_there_are_bookings(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3259935400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I go to Home",
+            "match": {
+              "location": "BookFlightSteps.i_go_to_home()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6492452000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "book a flight to Hyderabad",
+            "match": {
+              "location": "BookFlightSteps.book_a_flight_to_hyderabad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3285276500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I check a new booking on YourBookings page",
+            "match": {
+              "location": "BookFlightSteps.i_check_a_new_booking_on_yourbookings_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to test booking a flight in the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-test-booking-a-flight-in-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/BookFlight.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3161941400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the FlyAway application in browser",
+            "match": {
+              "location": "SearchFlightSteps.i_have_opened_the_flyaway_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-03T08:38:42.400Z",
+        "before": [
+          {
+            "result": {
+              "duration": 947551300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate the successsful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-login-page-of-the-application;validate-the-successsful-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 108538600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3097735100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236528900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"amit@amit.com\" and \"aaaaaa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amit@amit.com\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"aaaaaa\"",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.i_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3150533400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71080000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I land on the dashboard page",
+            "match": {
+              "location": "LoginSteps.i_land_on_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3160444400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the FlyAway application in browser",
+            "match": {
+              "location": "SearchFlightSteps.i_have_opened_the_flyaway_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-03T08:38:53.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996913300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate the successsful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-login-page-of-the-application;validate-the-successsful-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 110199500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3161165100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131171300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"john@doe.com\" and \"aaaaaa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john@doe.com\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"aaaaaa\"",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginSteps.i_enter_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3149127400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79294400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I land on the dashboard page",
+            "match": {
+              "location": "LoginSteps.i_land_on_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3142862800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the FlyAway application in browser",
+            "match": {
+              "location": "SearchFlightSteps.i_have_opened_the_flyaway_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-03T08:39:03.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 851899300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the negative login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-test-the-login-page-of-the-application;validate-the-negative-login",
+        "after": [
+          {
+            "result": {
+              "duration": 87357200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3101784600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74274500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email",
+            "match": {
+              "location": "LoginSteps.i_enter_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62563100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3135108100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73585300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should get the error message \"Login failed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login failed\"",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginSteps.i_should_get_the_error_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to test the login page of the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-test-the-login-page-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-03T08:39:14.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 980291800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search for flights from Bangalore to Chennai",
+        "description": "",
+        "id": "this-feature-will-be-used-to-search-for-flights;search-for-flights-from-bangalore-to-chennai",
+        "after": [
+          {
+            "result": {
+              "duration": 78400000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3183266700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the FlyAway application in browser",
+            "match": {
+              "location": "SearchFlightSteps.i_have_opened_the_flyaway_application_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 161927300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select source",
+            "match": {
+              "location": "SearchFlightSteps.i_select_source()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103261000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select destination",
+            "match": {
+              "location": "SearchFlightSteps.select_desnitation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102883000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Submit button",
+            "match": {
+              "location": "SearchFlightSteps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49928300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see one flight with this route",
+            "match": {
+              "location": "SearchFlightSteps.i_should_see_one_flight_with_this_route()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to search for flights",
+    "description": "",
+    "id": "this-feature-will-be-used-to-search-for-flights",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SearchFlight.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3153257100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the FlyAway application in browser",
+            "match": {
+              "location": "SearchFlightSteps.i_have_opened_the_flyaway_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-03T08:39:19.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 874216500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate successful sign up",
+        "description": "",
+        "id": "this-feature-would-be-used-to-sign-up-in-the-application;validate-successful-sign-up",
+        "after": [
+          {
+            "result": {
+              "duration": 78116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3102432900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3170464100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on a Signup Link",
+            "match": {
+              "location": "SignUpSteps.i_click_on_a_signup_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88667300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter email_id",
+            "match": {
+              "location": "SignUpSteps.i_enter_email_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191812200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter and confirm password",
+            "match": {
+              "location": "SignUpSteps.i_enter_and_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138033100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter name",
+            "match": {
+              "location": "SignUpSteps.i_enter_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5197996900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I press on Signup button",
+            "match": {
+              "location": "SignUpSteps.i_press_on_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49720700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should get the message \"Your registration is confirmed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your registration is confirmed.\"",
+                  "offset": 25
+                }
+              ],
+              "location": "SignUpSteps.i_should_get_the_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8711227600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I log in with the new credentials",
+            "match": {
+              "location": "SignUpSteps.i_log_in_with_the_new_credentials()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to sign up in the application",
+    "description": "",
+    "id": "this-feature-would-be-used-to-sign-up-in-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SignUp.feature",
+    "tags": []
+  }
+]
