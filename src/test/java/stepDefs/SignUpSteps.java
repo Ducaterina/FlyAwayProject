@@ -22,7 +22,7 @@ public class SignUpSteps {
 	@When("I enter email_id")
 	public void i_enter_email_id() {
 		WebElement email = driver.findElement(By.name("email_id"));
-		email.sendKeys("abcdef@xyz.com");
+		email.sendKeys("abc1@xyz.com");
 	};
 
 	@When("I enter and confirm password")
@@ -59,7 +59,7 @@ public class SignUpSteps {
 		Thread.sleep(3000);
 		
 		WebElement email = driver.findElement(By.name("email_id"));
-		email.sendKeys("abcdef@xyz.com");
+		email.sendKeys("abc1@xyz.com");
 		
 		WebElement password = driver.findElement(By.name("pwd"));
 	    password.sendKeys("bbbbbb");
